@@ -25,12 +25,12 @@ def button_click():
     my_label.config(text=new_text)
 
 button =tkinter.Button(text="Click Me", command=button_click)
-button.grid(column=2, row=0)
+button.grid(column=1, row=1)
 
 
 #Entry 
 
 input = tkinter.Entry(width=10)
-input.grid(column = 3, row = 2)
+input.grid(column = 4, row = 3)
 
 window.mainloop()    
